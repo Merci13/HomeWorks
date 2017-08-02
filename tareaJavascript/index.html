@@ -31,9 +31,15 @@
 						</div>
 						
 						<div class="form-group">
-							<div class="col-sm-offset-2 col-sm-10">
+							<div class="col-sm-offset-2 col-sm-6 ">
 								<button  class="btn btn-success" onclick="guardar()">Guardar</button>
 							</div>
+							
+						
+							<div class="col-sm-offset-2 col-sm-6 ">
+								<button  class="btn btn-warning" onclick="remover()">Eliminar ultimo</button>
+							</div>
+							
 						</div>
 					</form>
 				</div>
@@ -46,7 +52,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					
 					
-					<table class="table table-striped">
+					<table class="table table-striped" id="table-usarios">
 						<thead>
 							<tr>
 								<th>Nombre</th>
@@ -57,14 +63,14 @@
 						<tbody>
 							<!--
 							<tr>
-									<td>
-									</td>
+											<td>
+											</td>
 							</tr>
 							<tr>
-									
+											
 							</tr>
 							<tr>
-									
+											
 							</tr>-->
 						</tbody>
 					</table>
